@@ -1,0 +1,78 @@
+* {margin: 0;padding: 0;border: 0;}
+.wrapper {
+    width: 80%;
+    border: 1px solid red;
+    margin: 0 auto;
+    font-family: Arial;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+.site-title h1{
+    font-size: 90px;
+    
+}
+.site-title h1 span {
+    text-decoration: underline;
+
+}
+.nav {
+    margin: 15px 0px;
+}
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav ul li a{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.hero .banner {
+    background: url('project2/clock.jpg') center;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.hero .colum-4 {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero .colums {
+    padding: 10px;
+}
+
+.news-letter {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    justify-content: center;
+}
+.signup-form, .signup-text {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid red;
+}
+.signup-form input {
+    border: 1px solid #ccc;
+    padding: 5%;
+    margin-bottom: 5%;
+}
+.sitemap {
+    display: flex;
+}
+.sitemap section {
+    margin: 10px 35px;
+}
+.sitemap a {
+    text-decoration: none;
+}
+
+
+
